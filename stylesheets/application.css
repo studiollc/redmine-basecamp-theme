@@ -1,4 +1,4 @@
-/**
+/*
  * Basecamp stylesheet, based on "alternate"
  *
  * author: Peter Theill, Commanigy - http://commanigy.com
@@ -139,3 +139,7 @@ div.splitcontentleft ol li, div.splitcontentleft ul li, div.wiki ol li, div.wiki
 div.wiki ul.toc li { padding: 0; }
 ol li ol li { list-style-type: lower-alpha; }
 ol li ol li ol li { list-style-type: lower-roman; }
+
+#backlogs_task_color,
+#user_password,
+#user_password_confirmation { width: 90%; }
