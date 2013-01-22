@@ -264,3 +264,55 @@ div#activity dd span.author a {
 	color: #222;
 	text-decoration: none;
 }
+
+
+
+/* Stuff to do */
+
+div.pane ol li.stuff-to-do-item {
+	border-bottom: solid 1px #ddd;
+	font-size: 11px;
+	padding: 4px 0;
+}
+
+.stuff-to-do-item div.project-details,
+.stuff-to-do-item div.issue-details {
+	display: block;
+	margin-left: 30px;
+	margin-right: 10%;
+	padding: 2px 0;
+	text-indent: -30px;
+	width: 63%;
+}
+
+.stuff-to-do-item div.project-details a,
+.stuff-to-do-item div.issue-details a {
+	color: #484848;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.stuff-to-do-item div.project-details a img,
+.stuff-to-do-item div.issue-details a img {
+	position: absolute;
+	left: -25px;
+	top: 1px;
+}
+
+.stuff-to-do-item div.estimate {
+	display: none;
+
+}
+table.progress tr td {
+	border-bottom: solid 1px #ddd;
+}
+
+
+
+
+
+
+
+
+
+
